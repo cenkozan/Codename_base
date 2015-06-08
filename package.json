@@ -1,8 +1,7 @@
 {
-  "name": "todomvc-flux",
-  "version": "0.0.3",
-  "description": "Example Flux architecture.",
-  "repository": "https://github.com/facebook/flux",
+  "name": "Codename-base",
+  "version": "0.0.1",
+  "description": "A To Do Application for Github Pages implementation for Tasks.",
   "main": "js/app.js",
   "dependencies": {
     "flux": "^2.0.1",
@@ -23,7 +22,7 @@
     "build": "browserify . -t [envify --NODE_ENV production] | uglifyjs -cm > js/bundle.min.js",
     "test": "jest"
   },
-  "author": "Bill Fisher",
+  "author": "Cenk Ozan Kahraman",
   "browserify": {
     "transform": [
       "reactify",
@@ -34,3 +33,4 @@
     "rootDir": "./js"
   }
 }
+

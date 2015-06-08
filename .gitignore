@@ -1,5 +1,6 @@
 node_modules
 lib/
 *.log
+*.swp
 website/src/flux/docs/
 website/core/metadata.js
